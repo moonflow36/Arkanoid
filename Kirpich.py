@@ -7,7 +7,7 @@ class Kirpich:
         self.x = x
         self.y = y
         self.color = (255, 0, 0)
-        self.rect = pygame.rect(self.x, self.y, self.width, self.height)
+        self.rect = pygame.Rect(self.x, self.y, self.width, self.height)
         self.health = 2
 
     def draw(self, screen):
